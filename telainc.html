@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guard Kids — Proteção para crianças em jogos online</title>
+  
+  <meta name="description" content="Guard Kids conecta o celular do responsável ao celular da criança para proteger a diversão nos jogos online e orientar sobre cyberbullying.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="telainic.css">
+</head>
+<body>
+
+    <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo principal</a>
+
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a href="#topo" class="brand" id="topo">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 48 48" width="36" height="36">
+              <path d="M24 3 L42 10 V22 C42 33 34.5 41 24 45 C13.5 41 6 33 6 22 V10 Z" fill="var(--teal-700)"/>
+              <path d="M24 8 L37 13 V22 C37 30.5 31.3 36.8 24 40 C16.7 36.8 11 30.5 11 22 V13 Z" fill="var(--navy-900)"/>
+              <path d="M17 23 L22 28 L32 17" fill="none" stroke="var(--mint-100)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <span class="brand-name">Guard Kids</span>
+        </a>
+        <nav class="site-nav" aria-label="Navegação principal">
+          <ul>
+            <li><a href="#como-funciona">Como funciona</a></li>
+            <li><a href="#cadastro">Cadastro</a></li>
+            <li><a href="#cyberbullying">Cyberbullying</a></li>
+            <li><a href="#ajuda">Ajuda urgente</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo-principal">
+
+      <!-- HERO -->
+      <section class="hero" aria-labelledby="hero-titulo">
+        <div class="wrap hero-inner">
+          <div class="hero-text">
+            <p class="eyebrow">Um elo entre você e quem você protege</p>
+            <h1 id="hero-titulo">Proteção que acompanha cada jogada.</h1>
+            <p class="hero-lede">
+              O Guard Kids conecta o celular do responsável ao celular da criança para
+              acompanhar a diversão nos jogos online com discrição, avisar sobre situações
+              de risco e ensinar como agir diante do cyberbullying — antes que ele machuque.
+            </p>
+            <div class="hero-actions">
+              <a href="#cadastro" class="btn btn-primary">Cadastrar os dois celulares</a>
+              <a href="#cyberbullying" class="btn btn-ghost">Ver orientações sobre bullying</a>
+            </div>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <svg viewBox="0 0 360 360" role="presentation">
+              <circle cx="180" cy="180" r="160" fill="var(--mint-100)"/>
+              <path d="M180 60 L268 90 V178 C268 232 231 270 180 292 C129 270 92 232 92 178 V90 Z" fill="#ffffff" stroke="var(--teal-700)" stroke-width="4"/>
+              <path d="M148 182 L172 206 L216 154" fill="none" stroke="var(--teal-700)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="180" cy="178" r="118" fill="none" stroke="var(--coral-500)" stroke-width="3" stroke-dasharray="2 10" class="pulse-ring"/>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <!-- COMO FUNCIONA -->
+      <section id="como-funciona" class="how-it-works" aria-labelledby="how-titulo">
+        <div class="wrap">
+          <h2 id="how-titulo">Um elo de proteção, dois celulares</h2>
+          <ol class="steps">
+            <li>
+              <span class="step-num" aria-hidden="true">1</span>
+              <h3>O responsável cadastra o seu celular</h3>
+              <p>Cria a conta principal, que recebe os alertas e concentra as configurações de segurança.</p>
+            </li>
+            <li>
+              <span class="step-num" aria-hidden="true">2</span>
+              <h3>Um código de pareamento é gerado</h3>
+              <p>Esse código é o elo entre os dois aparelhos — sem ele, nenhum celular de criança pode ser vinculado.</p>
+            </li>
+            <li>
+              <span class="step-num" aria-hidden="true">3</span>
+              <h3>A criança cadastra o celular dela com o código</h3>
+              <p>A proteção é ativada nos dois lados ao mesmo tempo, de forma transparente para a criança.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- CADASTRO -->
+      <section id="cadastro" class="cadastro" aria-labelledby="cadastro-titulo">
+        <div class="wrap">
+          <p class="eyebrow">Cadastro de aparelhos</p>
+          <h2 id="cadastro-titulo">Cadastre os dois celulares para ativar a proteção</h2>
+          <p class="section-lede">
+            Os dois cadastros abaixo trabalham juntos: o do responsável autoriza e acompanha,
+            o da criança é protegido por ele. Preencha primeiro o celular do responsável.
+          </p>
+
+          <div class="pairing-layout">
+
+            <!-- CARD RESPONSÁVEL -->
+            <form class="device-card device-card--adult" novalidate aria-labelledby="titulo-responsavel">
+              <div class="device-card-head">
+                <span class="device-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="22" height="22"><path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm0 3v13h10V5H7Zm5 14.2a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z" fill="currentColor"/></svg>
+                </span>
+                <div>
+                  <h3 id="titulo-responsavel">Celular do responsável</h3>
+                  <p>Este aparelho será o painel de controle da família.</p>
+                </div>
+              </div>
+
+              <fieldset>
+                <legend class="sr-only">Dados do responsável</legend>
+
+                <div class="field">
+                  <label for="resp-nome">Nome completo</label>
+                  <input type="text" id="resp-nome" name="resp-nome" autocomplete="name" required>
+                </div>
+
+                <div class="field">
+                  <label for="resp-relacao">Relação com a criança</label>
+                  <select id="resp-relacao" name="resp-relacao" required>
+                    <option value="" selected disabled>Selecione</option>
+                    <option value="mae">Mãe</option>
+                    <option value="pai">Pai</option>
+                    <option value="responsavel-legal">Responsável legal</option>
+                    <option value="outro">Outro</option>
+                  </select>
+                </div>
+
+                <div class="field-row">
+                  <div class="field">
+                    <label for="resp-telefone">Número do celular</label>
+                    <input type="tel" id="resp-telefone" name="resp-telefone" placeholder="(00) 00000-0000" autocomplete="tel" required>
+                  </div>
+                  <div class="field">
+                    <label for="resp-email">E-mail</label>
+                    <input type="email" id="resp-email" name="resp-email" autocomplete="email" required>
+                  </div>
+                </div>
+
+                <div class="field">
+                  <label for="resp-senha">Criar senha</label>
+                  <input type="password" id="resp-senha" name="resp-senha" autocomplete="new-password" minlength="8" required aria-describedby="resp-senha-dica">
+                  <p id="resp-senha-dica" class="field-hint">Mínimo de 8 caracteres. Só o responsável deve conhecer essa senha.</p>
+                </div>
+              </fieldset>
+
+              <button type="submit" class="btn btn-primary btn-block">Gerar código de pareamento</button>
+            </form>
+
+            <!-- ELO DE PROTEÇÃO -->
+            <div class="pairing-link" role="img" aria-label="Elo de proteção conectando o celular do responsável ao celular da criança, com o código de pareamento GK-7X4K-92">
+              <svg class="pairing-link-svg" viewBox="0 0 120 320" aria-hidden="true">
+                <path class="link-path" d="M60 10 C 100 60, 20 100, 60 150 C 100 200, 20 240, 60 310"
+                      fill="none" stroke="var(--teal-700)" stroke-width="4" stroke-linecap="round"/>
+                <circle class="link-node" cx="60" cy="10" r="7" fill="var(--navy-900)"/>
+                <circle class="link-node" cx="60" cy="150" r="9" fill="var(--coral-500)"/>
+                <circle class="link-node" cx="60" cy="310" r="7" fill="var(--navy-900)"/>
+              </svg>
+              <div class="pairing-code">
+                <span class="pairing-code-label">Código de pareamento</span>
+                <span class="pairing-code-value">GK&#8209;7X4K&#8209;92</span>
+                <span class="pairing-code-status">
+                  <span class="status-dot" aria-hidden="true"></span>
+                  Aguardando o celular da criança
+                </span>
+              </div>
+            </div>
+
+            <!-- CARD CRIANÇA -->
+            <form class="device-card device-card--child" novalidate aria-labelledby="titulo-crianca">
+              <div class="device-card-head">
+                <span class="device-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="22" height="22"><path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm0 3v13h10V5H7Zm5 14.2a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z" fill="currentColor"/></svg>
+                </span>
+                <div>
+                  <h3 id="titulo-crianca">Celular da criança</h3>
+                  <p>Vinculado ao responsável pelo código de pareamento.</p>
+                </div>
+              </div>
+
+              <fieldset>
+                <legend class="sr-only">Dados da criança</legend>
+
+                <div class="field">
+                  <label for="crianca-nome">Nome da criança</label>
+                  <input type="text" id="crianca-nome" name="crianca-nome" autocomplete="name" required>
+                </div>
+
+                <div class="field-row">
+                  <div class="field">
+                    <label for="crianca-nascimento">Data de nascimento</label>
+                    <input type="date" id="crianca-nascimento" name="crianca-nascimento" required>
+                  </div>
+                  <div class="field">
+                    <label for="crianca-apelido">Apelido nos jogos</label>
+                    <input type="text" id="crianca-apelido" name="crianca-apelido" placeholder="Como ela é chamada nos jogos">
+                  </div>
+                </div>
+
+                <div class="field">
+                  <label for="crianca-codigo">Código de pareamento</label>
+                  <input type="text" id="crianca-codigo" name="crianca-codigo" placeholder="GK-XXXX-XX" required aria-describedby="crianca-codigo-dica">
+                  <p id="crianca-codigo-dica" class="field-hint">Peça o código para o responsável — ele aparece no celular dele.</p>
+                </div>
+
+                <div class="field">
+                  <label for="crianca-jogos">Jogos favoritos <span class="opcional">(opcional)</span></label>
+                  <input type="text" id="crianca-jogos" name="crianca-jogos" placeholder="Ex.: Roblox, Minecraft, Free Fire">
+                </div>
+              </fieldset>
+
+              <button type="submit" class="btn btn-secondary btn-block">Concluir pareamento</button>
+            </form>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- CYBERBULLYING -->
+      <section id="cyberbullying" class="bullying" aria-labelledby="bullying-titulo">
+        <div class="wrap">
+          <p class="eyebrow">Orientações para a família</p>
+          <h2 id="bullying-titulo">Como agir diante do cyberbullying</h2>
+          <p class="section-lede">
+            Cada tipo de ataque pede uma resposta diferente. Abra cada situação para ver os
+            sinais de alerta, o que a criança pode fazer na hora e o que o responsável deve fazer em seguida.
+          </p>
+
+          <div class="bullying-list">
+
+            <details class="bullying-item" open>
+              <summary>
+                <span class="bullying-icon" aria-hidden="true">🚫</span>
+                <span class="bullying-title">Exclusão e isolamento em grupos de jogo</span>
+              </summary>
+              <div class="bullying-body">
+                <div>
+                  <h4>Sinais de alerta</h4>
+                  <p>A criança para de ser chamada para partidas em grupo, é removida de servidores ou guildas sem explicação, ou evita comentar sobre um jogo que antes amava.</p>
+                </div>
+                <div>
+                  <h4>O que a criança pode fazer agora</h4>
+                  <p>Sair da conversa ou do grupo sem responder no calor do momento, guardar prints como registro e contar para um adulto de confiança no mesmo dia.</p>
+                </div>
+                <div>
+                  <h4>O que o responsável deve fazer</h4>
+                  <p>Ouvir sem minimizar ("é só um jogo"), ajudar a encontrar comunidades mais saudáveis e, se o isolamento for organizado por um grupo, denunciar à plataforma do jogo.</p>
+                </div>
+              </div>
+            </details>
+
+            <details class="bullying-item">
+              <summary>
+                <span class="bullying-icon" aria-hidden="true">🎯</span>
+                <span class="bullying-title">Perseguição e mensagens repetidas</span>
+              </summary>
+              <div class="bullying-body">
+                <div>
+                  <h4>Sinais de alerta</h4>
+                  <p>Uma mesma pessoa manda mensagens insistentes mesmo sem resposta, aparece em vários jogos diferentes ou tenta descobrir com quem a criança joga.</p>
+                </div>
+                <div>
+                  <h4>O que a criança pode fazer agora</h4>
+                  <p>Bloquear e silenciar o perfil imediatamente, não revidar as mensagens e evitar confirmar horários ou servidores onde costuma jogar.</p>
+                </div>
+                <div>
+                  <h4>O que o responsável deve fazer</h4>
+                  <p>Registrar prints com data e horário, usar as ferramentas de bloqueio e denúncia da plataforma e, se a perseguição continuar fora do jogo, procurar a polícia.</p>
+                </div>
+              </div>
+            </details>
+
+            <details class="bullying-item">
+              <summary>
+                <span class="bullying-icon" aria-hidden="true">💬</span>
+                <span class="bullying-title">Ofensas, xingamentos e humilhação pública</span>
+              </summary>
+              <div class="bullying-body">
+                <div>
+                  <h4>Sinais de alerta</h4>
+                  <p>A criança fica quieta ou chorosa depois de jogar, evita o microfone do jogo ou repete apelidos ofensivos sobre si mesma.</p>
+                </div>
+                <div>
+                  <h4>O que a criança pode fazer agora</h4>
+                  <p>Sair da chamada de voz ou do chat, não tentar "se defender" trocando ofensas e lembrar que o comentário fala sobre quem escreveu, não sobre ela.</p>
+                </div>
+                <div>
+                  <h4>O que o responsável deve fazer</h4>
+                  <p>Reforçar que ela fez a coisa certa ao contar, denunciar a conta na plataforma e conversar sobre o episódio sem culpar a criança pela forma como jogava.</p>
+                </div>
+              </div>
+            </details>
+
+            <details class="bullying-item">
+              <summary>
+                <span class="bullying-icon" aria-hidden="true">📤</span>
+                <span class="bullying-title">Exposição de prints ou dados pessoais</span>
+              </summary>
+              <div class="bullying-body">
+                <div>
+                  <h4>Sinais de alerta</h4>
+                  <p>Colegas comentam algo que a criança só disse em conversa privada, ou surgem prints de conversas circulando em outros grupos.</p>
+                </div>
+                <div>
+                  <h4>O que a criança pode fazer agora</h4>
+                  <p>Parar de compartilhar informações pessoais no chat do jogo (escola, endereço, rotina) e avisar um adulto assim que perceber a exposição.</p>
+                </div>
+                <div>
+                  <h4>O que o responsável deve fazer</h4>
+                  <p>Solicitar a remoção do conteúdo à plataforma, revisar juntos o que pode e o que não pode ser compartilhado em jogos e, em casos graves, denunciar à SaferNet Brasil.</p>
+                </div>
+              </div>
+            </details>
+
+            <details class="bullying-item bullying-item--urgent">
+              <summary>
+                <span class="bullying-icon" aria-hidden="true">⚠️</span>
+                <span class="bullying-title">Ameaças e extorsão (inclusive sextorsão)</span>
+              </summary>
+              <div class="bullying-body">
+                <div>
+                  <h4>Sinais de alerta</h4>
+                  <p>Alguém exige dinheiro, itens do jogo ou imagens em troca de "não fazer algo", ou faz ameaças diretas à criança ou à família.</p>
+                </div>
+                <div>
+                  <h4>O que a criança pode fazer agora</h4>
+                  <p>Não pagar, não enviar nada e não apagar as mensagens — elas são prova. Procurar um adulto imediatamente, mesmo que sinta vergonha ou medo.</p>
+                </div>
+                <div>
+                  <h4>O que o responsável deve fazer</h4>
+                  <p>Tratar como emergência: preservar as provas, não confrontar o autor diretamente e acionar a Polícia (190) e a SaferNet Brasil no mesmo dia.</p>
+                </div>
+              </div>
+            </details>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- AJUDA URGENTE -->
+      <section id="ajuda" class="emergency" aria-labelledby="ajuda-titulo">
+        <div class="wrap emergency-inner">
+          <div>
+            <h2 id="ajuda-titulo">Precisa de ajuda agora?</h2>
+            <p>Se a situação envolver ameaça, extorsão ou risco imediato, não espere — acione um destes canais.</p>
+          </div>
+          <ul class="emergency-contacts">
+            <li>
+              <span class="emergency-name">Disque 100</span>
+              <span class="emergency-desc">Direitos Humanos — denúncias de violência contra crianças e adolescentes, 24h.</span>
+            </li>
+            <li>
+              <span class="emergency-name">SaferNet Brasil</span>
+              <span class="emergency-desc">Denúncia de crimes e violações contra crianças na internet — safernet.org.br</span>
+            </li>
+            <li>
+              <span class="emergency-name">Polícia — 190</span>
+              <span class="emergency-desc">Ameaças, extorsão ou qualquer risco imediato à segurança.</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <div class="brand brand--footer">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 48 48" width="28" height="28">
+              <path d="M24 3 L42 10 V22 C42 33 34.5 41 24 45 C13.5 41 6 33 6 22 V10 Z" fill="var(--teal-700)"/>
+              <path d="M24 8 L37 13 V22 C37 30.5 31.3 36.8 24 40 C16.7 36.8 11 30.5 11 22 V13 Z" fill="var(--navy-900)"/>
+            </svg>
+          </span>
+          <span class="brand-name">Guard Kids</span>
+        </div>
+        <p class="footer-note">
+          Guard Kids é um modelo de página educativa. Nenhum dado é realmente enviado a partir deste formulário.
+        </p>
+      </div>
+    </footer>
+
+</body>
+</html>
